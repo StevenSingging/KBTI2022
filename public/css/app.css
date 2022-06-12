@@ -1,0 +1,47 @@
+.carousel-item {
+    height: 250px;
+    width: 100%;
+    background: #777;
+    color: black;
+    position: relative;
+   
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0,5;
+
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.jumbotron {
+    height: 30rem;
+    background: #777;
+    color: black;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.tryal-gradient{
+background: rgb(227,118,23);
+background: linear-gradient(90deg, rgba(227,118,23,1) 0%, rgba(0,212,255,1) 100%);
+
+}
+
+.sd-shape {
+    animation: movedelement 10s linear infinite;
+    width: 100%;
+    transform: scale(1.1);
+    position: relative;
+    z-index: 1;
+}
